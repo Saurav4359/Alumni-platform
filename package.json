@@ -1,11 +1,14 @@
 {
   "name": "alumni-platform",
   "version": "1.0.0",
+  "type":"module",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "app.js",
+"scripts": {
+  "dev": "nodemon src/app.js",
+  "start": "node src/app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Saurav4359/Alumni-platform.git"
