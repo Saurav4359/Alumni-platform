@@ -1,7 +1,7 @@
 import express from "express";
 import { PORT } from "./config/config.js";
 import dbConnect from "./server.js";
- 
+
 const app = express();
 
 app.get("/", (req, res) => {
