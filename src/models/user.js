@@ -22,6 +22,6 @@ const UserSchema = new mongoose.Schema(
     timestamps: true, // it shows created and updated at....
   }
 );
-const UserModel = mongoose.model("users", UserSchema);
+const UserModel = mongoose.model("user", UserSchema);
 
 export { UserModel };
